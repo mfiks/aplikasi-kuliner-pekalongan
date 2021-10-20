@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DetailKuliner">
+
+    <ImageView
+        android:id="@+id/tampilDetailGambar"
+        android:layout_width="410dp"
+        android:layout_height="410dp" />
+
+    <TextView
+        android:id="@+id/tampilDetailNama"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:hint="Nama Kuliner"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tampilDetailKeterangan"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:hint="Keterangan Kuliner" />
+
+    <TextView
+        android:id="@+id/tampilDetailHarga"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Harga Kuliner"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dibuat oleh"
+        android:layout_marginTop="150dp"
+        android:textSize="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muhamad Fikri Setiawan A11.2019.11934"
+        android:layout_marginTop="1dp"
+        android:textSize="8dp"/>
+
+</LinearLayout>
